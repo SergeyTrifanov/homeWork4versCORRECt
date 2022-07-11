@@ -61,6 +61,7 @@ public class CalculatorController {
         return buildString(a,b, calculatorServices.divide(a,b), "/");
     }
 
+
     private String buildString(float a,
                                float b,
                                float result,
